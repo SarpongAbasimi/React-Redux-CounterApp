@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import '../css/counter.css'
+import PropTypes from 'prop-types';
 
 
 
@@ -19,6 +20,9 @@ const mapStateToProps = (state) => {
     }
 }
 
+Counter.PropTypes={
+    count:PropTypes.number
+}
 
 
 export default connect(mapStateToProps)(Counter)

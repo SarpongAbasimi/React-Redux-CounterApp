@@ -4,6 +4,7 @@ import '../css/buttons.css'
 import { connect } from 'react-redux';
 import incrementAction  from '../actions/incrementAction'
 import '../css/counter.css'
+import PropTypes from 'prop-types';
 
 
 class Button extends React.Component{
@@ -29,5 +30,8 @@ class Button extends React.Component{
     }
 }
 
+Button.PropTypes ={
+    onClick:PropTypes.func.isRequired
+}
 
 export default connect()(Button)
