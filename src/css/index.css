@@ -1,6 +1,7 @@
 body{
     margin:0;
-    background-color:#FFFFFF;
+    background-color:#65D2FF;
+    padding: 100px;
 }
 
 
@@ -8,7 +9,6 @@ body{
     width:300px;
     height: 300px;
     background-color: #17212C;
-    margin: 20px;
     padding: 20px;
     border-radius: 4px;
 }

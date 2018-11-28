@@ -1,5 +1,6 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react';
+import  Button from './components/buttons';
+import Counter from './components/showCount';
 
 class App extends React.Component{
     constructor(props){
@@ -9,7 +10,8 @@ class App extends React.Component{
     render(){
         return (
             <div className='appContainer flex'>
-
+            <Counter/>
+            <Button/>
             </div>
         );
     }

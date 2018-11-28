@@ -9,10 +9,10 @@ const initialState = {
 const reducer = (state=initialState,action)=> {
         switch (action.type){
             case increment:
-                return {count : state.count++}
+                return {count : state.count +1 }
             break
             case decrement:
-                return {count : state.count--}
+                return {count : state.count -1}
             break
             default:
                 return state
