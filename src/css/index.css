@@ -1,0 +1,18 @@
+body{
+    margin:0;
+    background-color: #17212C;
+}
+
+
+.appContainer{
+    width:300px;
+    background-color: #FFFFFF;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.flex{
+    display: flex;
+}
