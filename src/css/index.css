@@ -1,15 +1,15 @@
 body{
     margin:0;
-    background-color: #17212C;
+    background-color:#FFFFFF;
 }
 
 
 .appContainer{
     width:300px;
-    background-color: #FFFFFF;
     height: 300px;
-    margin: 10px;
-    padding: 10px;
+    background-color: #17212C;
+    margin: 20px;
+    padding: 20px;
     border-radius: 4px;
 }
 

@@ -1,0 +1,8 @@
+.counter{
+    padding: 20px;
+    text-align: center;
+}
+
+.counter #counterSpan{
+background-color: #FF61B8;
+}
